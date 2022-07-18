@@ -120,7 +120,7 @@ class PPODiscreteAgent:
     def optim_update(optimizer, objective):
         optimizer.zero_grad()
         objective.backward()
-        optimizer.step()
+        optimizer.step()#1
 
 
     def update(self):
